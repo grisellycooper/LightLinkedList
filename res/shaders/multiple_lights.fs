@@ -42,7 +42,7 @@ struct SpotLight {
     vec3 specular;       
 };
 
-#define NR_POINT_LIGHTS 4
+#define NR_POINT_LIGHTS 1
 
 in vec3 FragPos;
 in vec3 Normal;
@@ -84,9 +84,9 @@ void main()
     //FragColor = vec4(1.0,0.0,0.0,0.2);
 
     //Great!!    
-    vec4 colorito = vec4(1.0, 1.0, 1.0, 0.3);
+    vec4 colorito = vec4(1.0, 1.0, 1.0, 0.6);
     //colorTex = texture(texture_diffuse1, TexCoords);
-    vec4 color = mix(colorito, FragColorito, 0.3);
+    vec4 color = mix(colorito, FragColorito, 0.6);
     FragColor = color;
 }
 
