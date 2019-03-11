@@ -14,16 +14,18 @@ Techniques implemented: Forward rendering, Deferred rendering and Order Independ
 
 Make sure you are using an out of place build, by making a build directory and compiling the code there.
 
-	mkdir build
+  mkdir build
 	cd build
 	cmake ..
   make
   ./graphics
-  
+
   ## Result
   
   ![Img_current_state](./_img/OIT.PNG)
   
+  
+  ## Video Demo
   
   https://drive.google.com/open?id=1VCPB5fBejrYAxKCkYjRleL1vvdgiNiSz
   
